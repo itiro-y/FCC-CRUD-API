@@ -18,7 +18,7 @@ app.get('/', (req,res) => {
 app.use("/api/products", productRoute);
 
 // connecting to mongodb
-mongoose.connect('mongodb+srv://admin:vyrmBvSF15nHUrOL@backenddb.z7lbuvo.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB')
+mongoose.connect('')
 .then(() => {
     console.log('Conencted to database!')
 })
